@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Axe Official logo pack</title>
+<style>
+  body { margin:0; font-family: ui-sans-serif, system-ui, sans-serif; }
+  h1,h2 { font-weight:600; }
+  .row { display:flex; gap:24px; flex-wrap:wrap; padding:24px; }
+  .card { border:1px solid #0001; border-radius:12px; padding:16px; }
+  .on-light { background:#f4f4f5; }
+  .on-dark { background:#0a0a0a; color:#fff; }
+  img { display:block; max-width:100%; height:auto; }
+  .grid img { background-image:linear-gradient(45deg,#ccc 25%,transparent 25%),linear-gradient(-45deg,#ccc 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#ccc 75%),linear-gradient(-45deg,transparent 75%,#ccc 75%); background-size:16px 16px; background-position:0 0,0 8px,8px -8px,-8px 0; }
+  code { font-size:12px; }
+</style>
+<body>
+<section class="on-light">
+  <div class="row">
+    <div>
+      <h1>Icon (transparent)</h1>
+      <img src="icon/icon.png" width="280" alt="icon">
+    </div>
+    <div>
+      <h1>Full logo (transparent)</h1>
+      <img src="full/logo-full.png" width="360" alt="full logo">
+    </div>
+  </div>
+</section>
+<section class="on-dark">
+  <div class="row">
+    <div>
+      <h2>On dark</h2>
+      <img src="icon/icon.png" width="220" alt="icon dark">
+    </div>
+    <div>
+      <h2>On dark</h2>
+      <img src="full/logo-full.png" width="320" alt="full dark">
+    </div>
+  </div>
+</section>
+<section class="row grid">
+  <div class="card"><code>16</code><img src="icon/icon-16.png" width="16" height="16"></div>
+  <div class="card"><code>32</code><img src="icon/icon-32.png" width="32" height="32"></div>
+  <div class="card"><code>48</code><img src="icon/icon-48.png" width="48" height="48"></div>
+  <div class="card"><code>64</code><img src="icon/icon-64.png" width="64" height="64"></div>
+  <div class="card"><code>128</code><img src="icon/icon-128.png" width="128" height="128"></div>
+  <div class="card"><code>192</code><img src="icon/icon-192.png" width="192" height="192"></div>
+  <div class="card"><code>512</code><img src="icon/icon-512.png" width="256" height="256"></div>
+</section>
+</body>
+</html>
